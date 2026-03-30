@@ -1,0 +1,9 @@
+[project]
+name = "proyecto-sam"
+version = "0.1.0"
+description = "This project aims to read and analyse SAM files. It counts the total of annotated sequences, the annotated sequences with a MAPQ of 60 and its>
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "rich>=14.3.3",
+]
