@@ -17,6 +17,11 @@ Ideal for a quick analysis of a single file.
 ```bash
 uv run main.py path/to/your/file.sam
 ```
+It is required to have the uv dependent rich installed, which is possible with the following command:
+
+```bash
+uv add rich
+```
 
 Option B: Pipeline Execution (using Nextflow)
 Ideal for integrating this script into bioinformatics workflows.
